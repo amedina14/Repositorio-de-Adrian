@@ -1,0 +1,14 @@
+El duplicado de 2 es 0
+El duplicado de 2 es 0
+El duplicado de 2 es 0
+El duplicado de 50 es 100
+El duplicado de 50 es 100
+El duplicado de 75 es 0
+El duplicado de 75 es 150
+El duplicado de 0 es 0
+El duplicado de 8 es 0
+
+El duplicado de 8 es 16
+
+El duplicado de 8 es 0
+

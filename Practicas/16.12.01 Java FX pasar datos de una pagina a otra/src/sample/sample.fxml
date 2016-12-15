@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="105.0" layoutY="40.0" prefHeight="17.0" prefWidth="390.0" text="Formulario de " />
+      <Label layoutX="47.0" layoutY="114.0" text="Nombre" />
+      <Label layoutX="47.0" layoutY="164.0" text="Nacimieto" />
+      <TextField fx:id="nombre" layoutX="144.0" layoutY="110.0" prefHeight="25.0" prefWidth="174.0" />
+      <RadioButton fx:id="sexo_h" layoutX="144.0" layoutY="228.0" mnemonicParsing="false" text="Hombre">
+         <toggleGroup>
+            <ToggleGroup fx:id="sexo" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="sexo_f" layoutX="144.0" layoutY="259.0" mnemonicParsing="false" text="Mujer" toggleGroup="$sexo" />
+      <Label layoutX="57.0" layoutY="228.0" prefHeight="17.0" prefWidth="35.0" text="Sexo" />
+      <DatePicker fx:id="nacimiento" layoutX="144.0" layoutY="160.0" />
+      <Button fx:id="btn_enviar" layoutX="66.0" layoutY="308.0" mnemonicParsing="false" onAction="#enviar" text="Enviar" />
+      <Button fx:id="btn_limpiar" layoutX="144.0" layoutY="308.0" mnemonicParsing="false" onAction="#limpiar" text="Limpiar" />
+      <Button fx:id="btn_salir" layoutX="238.0" layoutY="308.0" mnemonicParsing="false" onAction="#salir" text="Salir" />
+   </children>
+</Pane>
